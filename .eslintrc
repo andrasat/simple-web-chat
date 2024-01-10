@@ -1,0 +1,13 @@
+{
+  "root": true,
+  "extends": [
+    "@nuxtjs/eslint-config-typescript"
+  ],
+  "parserOptions": {
+    "sourceType": "module"
+  },
+  "rules": {
+    "vue/no-multiple-template-root": "off",
+    "arrow-parens": "off"
+  }
+}
